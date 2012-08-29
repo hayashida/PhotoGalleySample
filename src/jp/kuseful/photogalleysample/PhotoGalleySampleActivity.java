@@ -28,7 +28,7 @@ public class PhotoGalleySampleActivity extends Activity {
         // Galley‚ğŒÄ‚Ño‚·
         Intent intent = new Intent();
         intent.setType("image/*");
-        intent.setAction(Intent.ACTION_GET_CONTENT);
+        intent.setAction(Intent.ACTION_PICK);
         startActivityForResult(intent, REQUEST_GALLEY);
     }
     
